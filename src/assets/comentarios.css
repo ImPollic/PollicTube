@@ -1,0 +1,138 @@
+.Comentarios
+{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.819);;
+    width: 100%;
+    padding: 10px;
+}
+.meuComentario 
+{
+    padding: 10px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.img
+{
+    border-radius: 50%;
+    background-image: url('https://yt3.googleusercontent.com/9muLpK7ohUv15em90KzpChttZD7bv7bYnRx63Cddp3uULf_Z0lUyJpT5y8v1jdQ9vkeexaDiCw=s160-c-k-c0x00ffffff-no-rj');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    
+}
+hr {
+    opacity: 0.5;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+.extras {
+    flex-grow: 2;
+}
+.bot
+{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.cancelar {
+    background: none;
+    color: white;
+}
+.cancelar:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.comentar {
+    background-color: rgb(88, 208, 255);
+}
+.comentar:hover {
+    background-color: rgb(32, 167, 220);
+}
+.bots {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+#meuinput 
+{
+    width: 100%;
+    border-radius: 0;
+    height: 20px;
+    background: none;
+    padding-left: 0px;
+    border: none;
+}
+#meuinput:focus{
+    padding-left: 0px;
+}
+
+/*COMENTARIOS COMUNS*/
+.imagemcom {
+    
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 40px;
+    height: 40px;
+}
+.comentario-completo{
+    display: flex;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+.tempo{
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+.comentario-texto {
+    font-size: 1rem;
+    text-align: justify;
+   
+}
+.infocom {
+    width: 95%;
+}
+.respostas {
+    color: rgb(0, 128, 255);
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.linkdislike {
+    font-size: 1rem;
+    background: none;
+    color: white;
+    border: none;
+    margin-right: 10px;
+}
+.numspam{
+    opacity: 0.7;
+}
+#dislike {
+    font-size: 1.3rem;
+
+}
+
+footer {
+
+    color: white;
+    display: flex;
+  
+    align-items: center;
+    justify-content: end;
+    width: 100%;
+    padding: 10px;
+    background-color: #111;
+}
+footer span {
+    color: rgb(193, 0, 0);
+    margin-left: 2px;
+}
